@@ -1,4 +1,4 @@
-# Ntes
+# Note
 
 - Please use python 3.7 or earlier (create another virtual env if you are using 3.8 or later). e.g. 
 ```python
