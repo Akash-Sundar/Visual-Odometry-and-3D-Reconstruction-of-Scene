@@ -1,5 +1,6 @@
 # Visual-Odometry-and-3D-Reconstruction-of-Scene
 Visual Odometry was implemented as follows: 
+
 ![result](https://user-images.githubusercontent.com/120504031/235266641-5a1fb29f-a47a-45ff-8fca-02abb7572951.gif)
 
 ![image](https://user-images.githubusercontent.com/120504031/218338946-fec050d0-e505-4803-87ab-e1ecc75e3b7f.png)
