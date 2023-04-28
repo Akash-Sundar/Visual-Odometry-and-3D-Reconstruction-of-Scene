@@ -7,14 +7,14 @@
 2. GFTT
 3. Multi-threading, mutex locks
 
-## Edge cases taken care of
+## Edge cases considered:
 1. Max active keyframes are taken to be 7. If active keyframes < 7, this has been taken care of.
 
-## Edge cases not taken care of
+## Edge cases not considered:
 1. Brightness not constant
 2. Lost tracking, reset function is not implemented
 
-## Scope of improvements
+## Scope of improvements:
 1. Compare with other open source libraries
 2. I used GFTT as feature detector. This is not fast. Can use ORB, SIFT etc
 3. Taking care of edge cases, like changing brightness, lost tracking
@@ -42,7 +42,7 @@ bin/run_kitti_stereo
 
 ## Results
 
-### Output will be like
+### Sample Output:
 
 ```
 0204 14:58:25.402386 29886 visual_odometry.cpp:41] VO is running
@@ -56,13 +56,6 @@ I0204 14:58:25.415163 29886 frontend.cpp:216] Current Pose =
 I0204 14:58:25.420295 29886 visual_odometry.cpp:62] VO cost time: 0.00845767 seconds.
 ```
 
-### Output GIF of the visual odometry
+### Sample Output GIF of VO
 ![Output](result.gif)
 
-## Things to take care of
-1. Use 3rd party libraries for version compatibility
-2. May need to run commands (or add in .bashrc):
-```
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
-export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libffi.so.7
-```
