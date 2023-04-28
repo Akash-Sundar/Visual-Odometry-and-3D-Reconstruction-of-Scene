@@ -1,5 +1,5 @@
 # Visual-Odometry-and-3D-Reconstruction-of-Scene
-Visual Odometry was implemented as follows: 
+Visual Odometry was implemented as follows: (C++)
 
 ![result](https://user-images.githubusercontent.com/120504031/235266641-5a1fb29f-a47a-45ff-8fca-02abb7572951.gif)
 
