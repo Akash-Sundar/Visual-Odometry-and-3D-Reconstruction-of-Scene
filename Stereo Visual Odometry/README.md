@@ -1,7 +1,5 @@
 # Stereo Visual Odometry using Kitti Dataset
 
-## Decisions 
-
 ## Concepts used
 1. Optical flow
 2. GFTT
